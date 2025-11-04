@@ -19,12 +19,12 @@ export const loader = async () => {
     miniapp: {
       version: '1',
       name: 'DivergentVN',
-      homeUrl: 'https://test-farcaster.vercel.app/',
-      imageUrl: 'https://test-farcaster.vercel.app/images/32ratio.png',
+      homeUrl: 'https://test-farcaster-sigma.vercel.app/',
+      imageUrl: 'https://test-farcaster-sigma.vercel.app/images/32ratio.png',
       buttonTitle: '🚀 Launch',
-      iconUrl: 'https://test-farcaster.vercel.app/images/32ratio.png',
+      iconUrl: 'https://test-farcaster-sigma.vercel.app/images/32ratio.png',
       splashImageUrl:
-        'https://test-farcaster.vercel.app/images/test-gif-loading.gif',
+        'https://test-farcaster-sigma.vercel.app/images/test-gif-loading.gif',
       splashBackgroundColor: '#000000',
 
       subtitle: 'Divergent',
@@ -32,13 +32,14 @@ export const loader = async () => {
         'DivergentVN is an AI-powered app to improve your mental health.',
       primaryCategory: 'finance',
       tags: ['finance'],
-      heroImageUrl: 'https://test-farcaster.vercel.app/images/32ratio.png',
+      heroImageUrl:
+        'https://test-farcaster-sigma.vercel.app/images/32ratio.png',
       tagline: 'Save instantly',
       ogTitle: 'DivergentVN',
       ogDescription: 'Think DivergentVN as CapCut meets Pump.fun. Prompt NFT',
-      ogImageUrl: 'https://test-farcaster.vercel.app/images/32ratio.png',
-      castShareUrl: 'https://test-farcaster.vercel.app',
-      canonicalDomain: 'test-farcaster.vercel.app',
+      ogImageUrl: 'https://test-farcaster-sigma.vercel.app/images/32ratio.png',
+      castShareUrl: 'https://test-farcaster-sigma.vercel.app',
+      canonicalDomain: 'test-farcaster-sigma.vercel.app',
     },
   }
 
@@ -59,12 +60,12 @@ export const loader = async () => {
     miniapp: {
       version: '1',
       name: 'DivergentVN production',
-      homeUrl: 'https://test-farcaster.vercel.app/',
-      imageUrl: 'https://test-farcaster.vercel.app/images/32ratio.png',
+      homeUrl: 'https://test-farcaster-sigma.vercel.app/',
+      imageUrl: 'https://test-farcaster-sigma.vercel.app/images/32ratio.png',
       buttonTitle: '🚀 Launch',
-      iconUrl: 'https://test-farcaster.vercel.app/images/32ratio.png',
+      iconUrl: 'https://test-farcaster-sigma.vercel.app/images/32ratio.png',
       splashImageUrl:
-        'https://test-farcaster.vercel.app/images/test-gif-loading.gif',
+        'https://test-farcaster-sigma.vercel.app/images/test-gif-loading.gif',
       splashBackgroundColor: '#ffffff',
 
       subtitle: 'Your AI Companion',
@@ -72,13 +73,14 @@ export const loader = async () => {
         'DivergentVN is an AI-powered app to improve your mental health.',
       primaryCategory: 'finance',
       tags: ['finance'],
-      heroImageUrl: 'https://test-farcaster.vercel.app/images/32ratio.png',
+      heroImageUrl:
+        'https://test-farcaster-sigma.vercel.app/images/32ratio.png',
       tagline: 'Save instantly',
       ogTitle: 'DivergentVN',
       ogDescription: 'Think DivergentVN as CapCut meets Pump.fun. Prompt NFT',
-      ogImageUrl: 'https://test-farcaster.vercel.app/images/32ratio.png',
-      castShareUrl: 'https://test-farcaster.vercel.app',
-      canonicalDomain: 'test-farcaster.vercel.app',
+      ogImageUrl: 'https://test-farcaster-sigma.vercel.app/images/32ratio.png',
+      castShareUrl: 'https://test-farcaster-sigma.vercel.app',
+      canonicalDomain: 'test-farcaster-sigma.vercel.app',
     },
   }
 

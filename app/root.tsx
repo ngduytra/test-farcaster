@@ -86,13 +86,13 @@ export const meta: MetaFunction = () => {
       property: 'fc:miniapp',
       content: JSON.stringify({
         version: '1',
-        imageUrl: 'https://test-farcaster.vercel.app/images/32ratio.png',
+        imageUrl: 'https://test-farcaster-sigma.vercel.app/images/32ratio.png',
         button: {
           title: `Join the DivergentVN`,
           action: {
             type: 'launch_miniapp',
             name: `Launch DivergentVN`,
-            url: `https://test-farcaster.vercel.app`,
+            url: `https://test-farcaster-sigma.vercel.app`,
             splashBackgroundColor: '#000000',
           },
         },
@@ -103,13 +103,13 @@ export const meta: MetaFunction = () => {
     //   property: 'fc:frame',
     //   content: JSON.stringify({
     //     version: 'next',
-    //     imageUrl: 'https://test-farcaster.vercel.app/32ratio.png',
+    //     imageUrl: 'https://test-farcaster-sigma.vercel.app/32ratio.png',
     //     button: {
     //       title: `Join the Dapamint`,
     //       action: {
     //         type: 'launch_frame',
     //         name: `Launch Dapamint`,
-    //         url: `https://test-farcaster.vercel.app`,
+    //         url: `https://test-farcaster-sigma.vercel.app`,
     //         splashBackgroundColor: '#000000',
     //       },
     //     },
@@ -125,16 +125,16 @@ export const meta: MetaFunction = () => {
 //         'fc:miniapp': JSON.stringify({
 //           version: 'next',
 //           imageUrl:
-//             'https://test-farcaster.vercel.app/dopamint-text-logo-dark.png',
+//             'https://test-farcaster-sigma.vercel.app/dopamint-text-logo-dark.png',
 //           title: 'Dopamint ',
 //           button: {
 //             title: `Dopamint AI App`,
 //             action: {
 //               type: 'launch_miniapp',
 //               name: 'Dopamint AI App',
-//               url: 'https://test-farcaster.vercel.app',
+//               url: 'https://test-farcaster-sigma.vercel.app',
 //               splashImageUrl:
-//                 'https://test-farcaster.vercel.app/dopamint-text-logo-dark.png',
+//                 'https://test-farcaster-sigma.vercel.app/dopamint-text-logo-dark.png',
 //               splashBackgroundColor: '#000000',
 //             },
 //           },
