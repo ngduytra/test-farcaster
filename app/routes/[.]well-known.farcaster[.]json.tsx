@@ -47,9 +47,9 @@ export const loader = async () => {
     accountAssociation: {
       header:
         'eyJmaWQiOjEzNjkxODAsInR5cGUiOiJjdXN0b2R5Iiwia2V5IjoiMHhDMEZFRjg4MjlBMzlCNTE1MUY2NDMwNzgzMGQzM2UzMDk0MGU0YTU4In0',
-      payload: 'eyJkb21haW4iOiJ0ZXN0LXJlbWl4LTIudmVyY2VsLmFwcCJ9',
+      payload: 'eyJkb21haW4iOiJ0ZXN0LWZhcmNhc3Rlci1zaWdtYS52ZXJjZWwuYXBwIn0',
       signature:
-        'MHhjOTdmZWY3Yjg3OTMwMzk2YjJjODZkNmY4NzM3OTgxNDU2YzM5NWJmZGMwYjIxZjc1ZTgxYzA1ZmQxNzMxMTY5NjVjYzNiODA2MDI3Y2Q1MDk0NDE3Y2Y4ZDVkZWE1ZTI1NDVhYjU0Y2EwOWYzMDI0ZDZjMjhiZTk0OWRhOTZhOTFj',
+        '4NpWf0V77b+m3nqJtdxNjtVQJU9sXcbV1kmbd6zZ4w1pNTUXcjYBPmh2dCnhuGg4s9KlnXt4PasdNK3XwqNY7xw=',
     },
     baseBuilder: {
       allowedAddresses: [
