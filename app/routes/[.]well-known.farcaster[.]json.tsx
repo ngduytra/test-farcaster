@@ -1,4 +1,4 @@
-import { data } from '@remix-run/node'
+import { data, redirect } from '@remix-run/node'
 
 // You can also move this to an environment variable or config file
 export const loader = async () => {
@@ -85,18 +85,26 @@ export const loader = async () => {
   }
 
   if (import.meta.env.VITE_ENV === 'production') {
-    return data(manifestProduction, {
-      headers: {
-        'Content-Type': 'application/json',
-        'Cache-Control': 'public, max-age=3600', // Cache for 1 hour
-      },
-    })
+    return redirect(
+      'https://api.farcaster.xyz/miniapps/hosted-manifest/019a51bf-18dc-3d81-a98f-f3c577ebfbe8',
+      307,
+    )
+    // data(manifestProduction, {
+    //   headers: {
+    //     'Content-Type': 'application/json',
+    //     'Cache-Control': 'public, max-age=3600', // Cache for 1 hour
+    //   },
+    // })
   }
 
-  return data(manifest, {
-    headers: {
-      'Content-Type': 'application/json',
-      'Cache-Control': 'public, max-age=3600', // Cache for 1 hour
-    },
-  })
+  return redirect(
+    'https://api.farcaster.xyz/miniapps/hosted-manifest/019a51bf-18dc-3d81-a98f-f3c577ebfbe8',
+    307,
+  )
+  // data(manifest, {
+  //   headers: {
+  //     'Content-Type': 'application/json',
+  //     'Cache-Control': 'public, max-age=3600', // Cache for 1 hour
+  //   },
+  // })
 }
